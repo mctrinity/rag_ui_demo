@@ -9,7 +9,10 @@ venv/
 .venv/
 *.pyc
 __pycache__/
+
+# Environment Files (Security)
 .env
+backend/.env  # Ensures the .env file in backend is ignored
 
 # Python Logs
 logs/
@@ -35,4 +38,3 @@ dist/
 # Dependencies
 package-lock.json
 yarn.lock
-

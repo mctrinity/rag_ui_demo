@@ -1,0 +1,38 @@
+# Git Ignore for Backend and Frontend
+
+# General OS Files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment (Python)
+venv/
+.venv/
+*.pyc
+__pycache__/
+.env
+
+# Python Logs
+logs/
+*.log
+
+# Flask Specific
+instance/
+.mypy_cache/
+
+# Node.js (Frontend)
+node_modules/
+.npm/
+
+# Build Files
+build/
+dist/
+
+# Editor Specific
+.vscode/
+.idea/
+*.swp
+
+# Dependencies
+package-lock.json
+yarn.lock
+
